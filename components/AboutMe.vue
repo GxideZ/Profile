@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="max-w-4xl mx-auto px-6"> 
+    <div class="max-w-4xl mx-auto px-6">
         <h2 class="text-xl font-bold mb-3 flex justify-between">
             <span>About me</span>
         </h2>
@@ -18,14 +18,14 @@
                         Nickname : Guide
                         <!-- {{ experience.title }} -->
                     </h3>
-                <div>
+                    <div>
 
                         <span>
                             Date of Birth : 10 January 2004
                         </span>
                         <span> · </span>
                         <span>
-                              20 Years old
+                            20 Years old
                         </span>
                     </div>
                     <div>
@@ -35,14 +35,17 @@
                     </div>
 
                     <div class="py-3 md:hidden">
+        
                         <p class="whitespace-pre-wrap">
-                            · GPA : 3.35 / 4.00
-                            <!-- {{ experience.detail }} -->
+                            · Frontend Developer (interested)
                         </p>
                         <p class="whitespace-pre-wrap">
-                            · Science-Math Room
-                            <!-- {{ experience.detail }} -->
+                            · Backend Developer (interested)
                         </p>
+                        <p class="whitespace-pre-wrap">
+                            · Full Stack Developer (interested)
+                        </p>
+
                     </div>
                     <BaseBadgeList :badges="['KMITL Prince of Chumphon Campus']" />
                 </div>
